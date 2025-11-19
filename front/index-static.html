@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuma Cloud Gaming - Jogue AAA em Qualquer Dispositivo</title>
+    <meta name="description" content="Streaming de jogos AAA em 4K com latência ultra-baixa. Jogue sem hardware caro, direto do navegador.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-nav fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand d-flex align-items-center" href="#home">
+                    <span class="brand-text">KUMA CLOUD</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">SOBRE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#objetivos">OBJETIVOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">CONTATO</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center hero-content">
+                    <h1 class="hero-title mb-4">JOGUE AAA EM QUALQUER DISPOSITIVO</h1>
+                    <p class="hero-subtitle mb-3">Streaming 4K, latência abaixo de 20ms, direto do seu navegador.</p>
+                    <p class="hero-description mb-4">Sem precisar de hardware caro. Apenas jogue.</p>
+                    <button class="btn btn-primary btn-lg btn-hero" data-bs-toggle="modal" data-bs-target="#authModal">
+                        COMEÇAR A JOGAR
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section-padding bg-dark-alt">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">SOBRE O KUMA CLOUD</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon mb-3">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Democratização do Gaming</h3>
+                        <p class="feature-text">O Kuma Cloud democratiza o acesso a jogos de alta performance sem a necessidade de consoles ou PCs potentes. Jogue onde quiser, quando quiser.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon-secondary mb-3">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                                <path d="M4 22h16"/>
+                                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                                <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Performance Máxima</h3>
+                        <p class="feature-text">Tecnologia de streaming 4K com latência ultra-baixa garante a melhor experiência possível, como se estivesse jogando localmente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objetivos Section -->
+    <section id="objetivos" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">NOSSOS OBJETIVOS</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="stats-card">
+                        <div class="stats-icon mb-3">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="stats-number">1.000</h3>
+                        <p class="stats-label">Usuários no beta fechado</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="stats-card">
+                        <div class="stats-icon mb-3">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                                <path d="M4 22h16"/>
+                                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                                <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="stats-number">5 Jogos AAA</h3>
+                        <p class="stats-label">Títulos premium via streaming</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="stats-card">
+                        <div class="stats-icon mb-3">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="stats-number">&lt; 20ms</h3>
+                        <p class="stats-label">Latência menor que 20ms</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="stats-card">
+                        <div class="stats-icon mb-3">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12.55a11 11 0 0 1 14.08 0"/>
+                                <path d="M1.42 9a16 16 0 0 1 21.16 0"/>
+                                <path d="M8.53 16.11a6 6 0 0 1 6.95 0"/>
+                                <line x1="12" y1="20" x2="12.01" y2="20"/>
+                            </svg>
+                        </div>
+                        <h3 class="stats-number">99.5%</h3>
+                        <p class="stats-label">Uptime garantido</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section-padding bg-dark-alt">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title text-center mb-5">CONTATO</h2>
+                    <div class="contact-card">
+                        <form id="contactForm">
+                            <div class="mb-4">
+                                <label for="contactEmail" class="form-label">E-mail</label>
+                                <input type="email" class="form-control custom-input" id="contactEmail" placeholder="seu@email.com" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="contactMessage" class="form-label">Mensagem</label>
+                                <textarea class="form-control custom-input" id="contactMessage" rows="4" placeholder="Digite sua mensagem..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 btn-submit">ENVIAR</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Kuma Cloud Gaming — Projeto Acadêmico</p>
+        </div>
+    </footer>
+
+    <!-- Auth Modal -->
+    <div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-custom">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-4">
+                        <svg class="modal-icon mb-3" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                            <line x1="3" y1="6" x2="21" y2="6"/>
+                            <path d="M16 10a4 4 0 0 1-8 0"/>
+                        </svg>
+                        <h2 class="modal-title">Antes de começar</h2>
+                        <p class="modal-subtitle">Insira seus dados ou crie uma conta</p>
+                    </div>
+
+                    <ul class="nav nav-tabs mb-4" id="authTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab">Fazer Login</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab">Criar Conta</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="authTabContent">
+                        <!-- Login Tab -->
+                        <div class="tab-pane fade show active" id="login" role="tabpanel">
+                            <form id="loginForm">
+                                <div class="mb-3">
+                                    <label for="loginEmail" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control custom-input" id="loginEmail" placeholder="seu@email.com" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="loginPassword" class="form-label">Senha</label>
+                                    <input type="password" class="form-control custom-input" id="loginPassword" placeholder="••••••••" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 btn-submit">ENTRAR</button>
+                            </form>
+                        </div>
+
+                        <!-- Signup Tab -->
+                        <div class="tab-pane fade" id="signup" role="tabpanel">
+                            <form id="signupForm">
+                                <div class="mb-3">
+                                    <label for="signupName" class="form-label">Nome</label>
+                                    <input type="text" class="form-control custom-input" id="signupName" placeholder="Seu nome completo" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="signupEmail" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control custom-input" id="signupEmail" placeholder="seu@email.com" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="signupPassword" class="form-label">Senha</label>
+                                    <input type="password" class="form-control custom-input" id="signupPassword" placeholder="Mínimo 6 caracteres" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 btn-submit">CADASTRAR</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="toast" class="toast align-items-center text-white border-0" role="alert">
+            <div class="d-flex">
+                <div class="toast-body" id="toastMessage"></div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
