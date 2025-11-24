@@ -48,7 +48,7 @@ Plataforma de cloud gaming que elimina a necessidade de hardware caro, permitind
 
 ```mermaid
 graph TD
-    User[Jogadores (Qualquer Dispositivo)] -->|HTTPS / WebRTC| Kuma[Kuma Cloud Gaming]
+    User["Jogadores (Qualquer Dispositivo)"] -->|HTTPS / WebRTC| Kuma[Kuma Cloud Gaming]
     
     subgraph "Kuma Cloud Cluster (Kubernetes)"
         Engine[Streaming Engine (C++/Rust)]
@@ -278,3 +278,4 @@ Current (MVP)         12 Months           24 Months
 | Violação de Dados | Crítico | Criptografia de banco de dados (TDE), Pentests regulares e Auditorias de segurança. |
 | Degradação de DB | Alto | Otimização contínua de queries, uso agressivo de Cache (Redis) e Database Sharding. |
 | Indisponibilidade de Equipe | Médio | Documentação rigorosa (ADRs) e rotina de Cross-training para evitar silos de conhecimento. |
+
