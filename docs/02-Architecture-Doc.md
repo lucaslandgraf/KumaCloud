@@ -51,7 +51,7 @@ graph TD
     User["Jogadores (Qualquer Dispositivo)"] -->|HTTPS / WebRTC| Kuma[Kuma Cloud Gaming]
     
     subgraph "Kuma Cloud Cluster (Kubernetes)"
-        Engine[Streaming Engine (C++/Rust)]
+        Engine["Streaming Engine (C++/Rust)"]
         API[Backend API (Python/Go)]
         DB[(PostgreSQL)]
         Cache[(Redis)]
