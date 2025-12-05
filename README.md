@@ -2,7 +2,7 @@
 
 [![Status](https://img.shields.io/badge/status-MVP%20Frontend-success)](https://img.shields.io/badge/status-MVP%20Frontend-success)
 [![Architecture](https://img.shields.io/badge/architecture-Client--Server-blue)](https://img.shields.io/badge/architecture-Client--Server-blue)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://img.shields.io/badge/license-MIT-green)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 > **Projeto da Disciplina de Arquitetura de Software**
 > Implementação do cliente web e documentação arquitetural da plataforma de streaming de jogos.
@@ -91,3 +91,4 @@ Como esta entrega foca na portabilidade web, não há necessidade de compilaçã
 | Gabriel Juliati | Engenheiro DevOps |
 | Matheus Kudlake | Eng. de Qualidade |
 | Matheus Leandro | Arquiteto de Dados |
+
